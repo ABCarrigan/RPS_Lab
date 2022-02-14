@@ -1,5 +1,5 @@
 # Rock Paper Scissors Web Game
-# header 1: A simple Rock Paper Scissors game for web browsers, meant for two players.<br>
+## header 1: A simple Rock Paper Scissors game for web browsers, meant for two players.<br>
 ---
 Mock up below
 ---
