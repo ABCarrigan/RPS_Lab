@@ -2,7 +2,6 @@ let p1hand = 'blank'
 let p2hand = 'blank'
 var btnStart = document.querySelector('#btnStart')
 
-// determine turn order and indicate who's turn it is
 btnStart.onclick = function turnOrder(){
     var playerTurn = Math.floor(Math.random() * 2)
     if (playerTurn = 1) {
