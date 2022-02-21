@@ -1,42 +1,48 @@
 body{
-    background-color: #808080;
+    background-color:rgb(56, 56, 56);
 }
 .bodyContainer{
-    background-color:white;
+    background-color:rgb(56, 56, 56);
     width:90%;
 
-    padding:5%;
+    padding:4.5%;
     display:grid;
     grid-template-columns:1fr 2fr 1fr;
     grid-template-rows:1fr 4.75fr 1fr;
+    border-style:outset;
 }
 .head1{
 grid-column:1;
 grid-row:1;
 text-align:center;
+background-color:rgb(255, 113, 113);
 }
 .head2{
 grid-column:2;
 grid-row:1;
 text-align:center;
+background-color:rgb(255, 226, 164);
 }
 .head3{
 grid-column:3;
 grid-row:1;
 text-align:center;
+background-color:rgb(113, 203, 255);
 }
 .mid1{
 grid-column:1;
 grid-row:2;
 text-align:center;
+background-color:rgb(255, 113, 113);
 }
 .mid2{
     grid-column:2;
     grid-row:2;
-    background-color:rgb(255, 113, 113);
-    display:flex;
-    align-content:center;
-    align-items:center;
+    background-color:rgb(255, 226, 164);
+    display:grid;
+    grid-template-columns:auto auto auto;
+    grid-template-rows:auto auto auto;
+    justify-content:center;
     border-style: outset;
     text-align:center;
 
@@ -45,19 +51,58 @@ text-align:center;
     grid-column:3;
     grid-row:2;
     text-align:center;
+    background-color:rgb(113, 203, 255);
 }
 .foot1{
     grid-column:1;
     grid-row:3;
     text-align:center;
+    background-color:rgb(255, 113, 113);
 }
 .foot2{
     grid-column:2;
     grid-row:3;
     text-align:center;
+    background-color:rgb(255, 226, 164);
 }
 .foot3{
     grid-column:3;
     grid-row:3;
     text-align:center;
+    background-color:rgb(113, 203, 255);
+}
+.playericon{
+    max-width: 50%;
+    max-height: 50%;
+}
+.rpsImgR{
+    max-width:70%;
+    max-height:70%;
+    grid-row-start:2;
+    grid-row-end:2;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.rpsImgP{
+    max-width:80%;
+    max-height:80%;
+    grid-row-start:2;
+    grid-row-end:2;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.rpsImgS{
+    max-width:80%;
+    max-height:80%;
+    grid-row-start:2;
+    grid-row-end:2;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mid2para{
+    grid-column-start:2;
+    grid-column-end:2;
 }
