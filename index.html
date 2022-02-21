@@ -9,16 +9,20 @@
 </head>
 <body>
     <div class="bodyContainer">
-        <div class="head1">Player 1</div>
+        <div class="head1" id="p1Name">Player 1</div>
         <div class="head2"><h3>Rock Paper Scissors</h3></div>
-        <div class="head3">Player 2</div>
-        <div class="mid1"><img class="playericon" src="image/player1icon.png"></div>
-        <div class="mid2"><p class="mid2para">Welcome to Rock Paper Scissors!<br>
-    This is a two player game. Enter a name for Player 1 and 2, then click start to begin!</p></div>
-        <div class="mid3"><img class="playericon" src="image/player2icon.png"></div>
-        <div class="foot1">Score: </div>
-        <div class="foot2"><button id="btnStart" type="button">START!</button></div>
-        <div class="foot3">Score: </div>
+        <div class="head3" id="p2Name">Player 2</div>
+        <div class="mid1" id="p1Icon"><img class="playericon" src="image/player1icon.png"></div>
+        <div class="mid2" id="gameContext"><p class="mid2para" id="mid2para">Welcome to Rock Paper Scissors!<br>
+    This is a two player game. Click start to begin!</p>
+            <img class="rpsImgR" id="rpsImgR" src="image/rock.png">
+            <img class="rpsImgP" id="rpsImgP" src="image/paper.png">
+            <img class="rpsImgS" id="rpsImgS" src="image/scissors.png">
+        </div>
+        <div class="mid3" id="p2Icon"><img class="playericon" src="image/player2icon.png"></div>
+        <div class="foot1" id="p1Score">Score: </div>
+        <div class="foot2" id="playerbuttons"><button id="btnStart" type="button">START!</button></div>
+        <div class="foot3" id="p2Score">Score: </div>
     </div>
 </body>
 <script src="script.js"></script>
