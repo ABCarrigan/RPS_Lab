@@ -1,5 +1,5 @@
-var p1hand = ['rock','paper','scissors']
-var p2hand = ['rock','paper','scissors']
+let p1hand = ['rock','paper','scissors']
+let p2hand = ['rock','paper','scissors']
 var btnStart = document.querySelector('#btnStart')
 
 // determine turn order and indicate who's turn it is
